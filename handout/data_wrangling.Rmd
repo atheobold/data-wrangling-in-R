@@ -1077,8 +1077,8 @@ folder.
 
 \vspace{0.5cm}
 
-```{r, purl = FALSE, eval = FALSE}
-write_csv(surveys_complete, path = "data/surveys_complete.csv")
+```{r, purl = FALSE}
+write_csv(surveys_complete, path = "../data/surveys_complete.csv")
 ```
 
 
