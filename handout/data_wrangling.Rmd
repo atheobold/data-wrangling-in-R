@@ -1014,7 +1014,7 @@ Let's start by removing observations of animals for which `weight` and
 \vspace{0.5cm}
 
 ```{r, purl=FALSE}
-surveys_complete <- surveys %>%
+surveys_complete <- combined %>%
   filter(!is.na(weight),           # remove missing weight
          !is.na(hindfoot_length),  # remove missing hindfoot_length
          !is.na(sex))                # remove missing sex
